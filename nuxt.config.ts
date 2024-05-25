@@ -1,13 +1,22 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   head: {
-    title: "Место штрафов",
+    title: "Место штрафов",  
     meta: [
       {
         name: "description",
         content:
           "Сайт штрафов: уникальный опыт, который предлагает вам всё необходимое для понимания и применения законов и нормативных актов легко и просто.",
+      },
+      {
         hid: "og:description",
+        name: "og:description",
+        content:
+          "Сайт штрафов: уникальный опыт, который предлагает вам всё необходимое для понимания и применения законов и нормативных актов легко и просто.",
+      },
+      {
+        name: "robots",
+        content: "index, follow",  
       },
     ],
     link: [
