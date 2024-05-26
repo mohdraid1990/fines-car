@@ -309,10 +309,10 @@ h1 {
     top: 65%;
   }
   .swiper-button-prev {
-    left: 21%;
+    left: 20%;
   }
   .swiper-button-next {
-    left: 77%;
+    left: 78%;
   }
 }
 </style>
